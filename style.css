@@ -209,30 +209,33 @@ nav ul li{
 
 
 /* Responsividade*/
-/*
+
 @media (max-width:1300px){
     body{
         height: 100%;
     }
-    section div.content{
+    section div.menu div.content{
         height: 100% ;
-        background-color: aqua;
+        width: 600px;
+        display: flex;
         flex-direction: column;
         
     }
     section #grid1{
         margin: 0;
         margin-bottom: 16px;
-        margin-top: 200px;
+
     }
     section #grid2{
         margin: 0;
-        margin-bottom: 16px;
-        margin-top: 200px;
+        margin-top: 16px;
+        
 
-    } */
+    }
+    section #grid2.grid #pricecard{
+        grid-column: 2;
 }
 
-@media (max-width:390px){
-
+@media (max-width:850px){
+    
 }
