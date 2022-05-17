@@ -237,5 +237,79 @@ nav ul li{
 }
 
 @media (max-width:850px){
-    
+    .header .searchbox #input{
+        display: none;
+    }
+    .header .searchbox{
+        width: 90px;
+        height: 90px;
+    }
+    .header .searchbox #searchbutton{
+        width: 30px;
+        height: 30px;
+        padding: 13.31px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width:750px){
+    .header{
+        justify-content: space-between;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .header .searchbox{
+        width: 40px;
+        height: 40px;
+    }
+    .header .searchbox #searchbutton{
+        width: 13.37px;
+        height: 13.37px;
+        padding: 13.31px;
+        margin: 0px;
+
+    }
+    .header #logoheader{
+        width: 70px;
+        height: 69.42px;
+        margin: 0px;
+
+    }
+    .grid{
+        grid-gap: 17.68px;
+    }
+    section div.menu div.content div.grid div.card{
+        padding: 13.26px;
+        border-radius: 8.84px;
+        
+    }
+    section div.content #pricecard{
+        width: 175.71px;
+        height: 283px;
+    }
+    section div.content #pricecard #biggerimg{
+        width: 149.19px;
+        height: 149.19px;
+    }
+    section div.menu div.content #pricecard h2{
+       font-size: 17.68px;
+       margin: 0px;
+       margin-top: 17.13px; 
+       margin-bottom: 4.42px;
+
+    }
+    section div.menu div.content #pricecard p{
+        font-size: 8.84px;
+    }
+    section div.content #imgcard{
+        width: 132.61px;
+        height: 132.66px;
+        
+    }
+    section div.content #imgcard #smallerimg{
+        background-color: red;
+        width: 106.09px;
+        height: 106.09px;
+
+    }
 }
