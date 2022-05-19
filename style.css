@@ -172,6 +172,7 @@ nav ul{
     flex-direction: row;
     width: 135px;
     justify-content: space-between;
+    margin-right: 118px;
 }
 nav ul li{
     list-style: none;
@@ -216,6 +217,10 @@ nav ul li #imgredes{
     }
     section #grid2.grid #pricecard{
         grid-column: 2;
+    }
+    nav ul{
+      margin-right: 0px;
+    }
 }
 
 @media (max-width:850px){
@@ -234,7 +239,7 @@ nav ul li #imgredes{
     }
 }
 
-@media (max-width:750px){
+@media (max-width:700px){
     body{
         height: 100%;
         width: 100%;
@@ -352,14 +357,19 @@ nav ul li #imgredes{
         height: 128px;
         
     }
+    nav ul{
+        margin-right: 0px;
+    }
     nav ul li #imgredes{
         width: 25px;
         height: 25px;
+        
     }
     #logofooter{
         display:none;
     }
 }
+
 
 @media (max-width: 340px){
     #signature{
