@@ -70,6 +70,7 @@ input:focus{
     font-style: normal;
     font-weight: 400;
     color: rgba(96, 96, 96, 0.6);
+
 }
 
 
@@ -189,6 +190,11 @@ nav ul li{
 nav ul li #imgredes{
     width: 35px;
     height: 35px;
+    border-radius: 50%;
+}
+nav ul li #imgredes:hover{
+    background-color: #E5E5E5;
+    transition: 0.5s;
 }
 #logofooter{
     width: 60px;
@@ -234,18 +240,27 @@ nav ul li #imgredes{
 
 @media (max-width:850px){
     .header .searchbox #input{
-        display: none;
+        width: 20px;
+        height: 20px;
+        background-image: url(images/magnifyingglass.png);
+        background-size: cover;
+        margin-top: 0px;
+    }
+    ::placeholder{
+        font-size: 0px;
     }
     .header .searchbox{
         width: 70px;
         height: 70px;
     }
     .header .searchbox #searchbutton{
+        display: none;
         width: 20px;
         height: 20px;
         padding: 13.31px;
         margin: 0px auto;
     }
+
 }
 
 @media (max-width:700px){
@@ -265,16 +280,40 @@ nav ul li #imgredes{
         height: 129.42px;
         width: 100%;
     }
+    .header .searchbox #input{
+        width: 13.37px;
+        height: 13.37px;
+        background-image: url(images/magnifyingglass.png);
+        background-size: cover;
+        margin-top: 0px;
+    }
+    ::placeholder{
+        font-size: 0px;
+    }
     .header .searchbox{
         width: 40px;
         height: 40px;
     }
     .header .searchbox #searchbutton{
+        display: none;
+        width: 20px;
+        height: 20px;
+        padding: 13.31px;
+        margin: 0px auto;
+    }
+
+/*
+    .header .searchbox{
+        width: 40px;
+        height: 40px;
+    }
+    .header .searchbox input{
         width: 13.37px;
         height: 13.37px;
+        background-size: cover;
         padding: 13.31px;
         margin: 0px;
-    }
+    }*/
     .header #logoheader{
         width: 70px;
         height: 69.42px;
