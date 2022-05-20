@@ -6,8 +6,7 @@
     border: 0;
 }
 p, h2, h3{
-    font-family: 'Orelega One', cursive;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
@@ -70,8 +69,7 @@ input:focus{
     font-style: normal;
     font-weight: 400;
     color: #60606099;
-    font-family: 'Orelega One', cursive;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
